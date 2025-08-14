@@ -1,0 +1,88 @@
+# ========================
+# 网站基础配置
+# ========================
+
+# 导航栏设置
+menu:                      # 主导航栏链接（格式：显示文字: 链接地址）
+  主页: /
+  归档: /archives
+  关于: /about
+
+# 首页样式
+home:
+  style: detail           # 文章列表显示模式: default(简洁模式) / detail(带摘要的详细模式)
+
+# 网站图标
+favicon: /images/favicon.png      # 浏览器标签页小图标路径（相对于/source目录）
+
+# ========================
+# 横幅图片设置
+# ========================
+banner:
+  enable: true            # 是否显示顶部横幅图片
+  url: /images/wallpaper.png      # 图片路径（支持本地路径或网络图片URL）
+  position: center        # 图片裁剪定位（对应CSS的object-position属性）
+  onAllPages: true        # 是否在所有页面显示（false则仅在首页显示）
+
+# ========================
+# 主题外观设置
+# ========================
+hue: 250                  # 主色调色相值（0-360度色环）
+                          # 示例：红0 | 橙60 | 蓝260 | 紫300 | 粉345
+                          # 预览：https://saicaca.github.io/vivia-preview
+
+# ========================
+# 个人信息设置
+# ========================
+avatar: /images/favicon.png        # 头像图片路径
+author: CIR_52            # 显示的作者名称
+subtitle: 生活的更多时候是寻找生活  # 作者简介/副标题
+
+# 社交媒体链接（格式：名称-图标-链接）
+links:
+  - name: 邮箱
+    icon: fa-solid fa-envelope  # 图标代码（从FontAwesome获取）
+    url: mailto:3898743634@qq.com
+  - name: 哔哩哔哩
+    icon: fa-brands fa-bilibili
+    url: https://space.bilibili.com/1885586597
+  - name: QQ交流群
+    icon: fa-brands fa-qq
+    url: https://qm.qq.com/q/yXYoQ2cwNy
+  - name: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com
+
+# ========================
+# 侧边栏设置
+# ========================
+sidebar:
+  widgets:                # 侧边栏组件配置
+    normal:               # 常规滚动区域组件
+      - profile           # 个人信息组件
+      - tag               # 内容标签
+    sticky:               # 顶部固定区域组件
+      - category          # 文章分类
+
+# 侧边栏组件参数
+archive_type: 'monthly'   # 归档类型：monthly(按月)/yearly(按年)
+recent_posts_limits: 5    # 「最新文章」组件显示数量
+categories:
+  max_depth: 2            # 分类显示层级深度（留空不限制）
+
+# ========================
+# 评论系统设置
+# ========================
+comment:
+  valine:                 # Valine评论系统
+    enable: false         # 启用开关
+    appId:                # LeanCloud应用ID
+    appKey:               # LeanCloud应用Key
+    placeholder: Just go go  # 评论框提示文字
+    pageSize: 10          # 每页评论数
+    highlight: true       # 代码高亮支持
+    # 更多配置：https://valine.js.org
+  twikoo:                 # Twikoo评论系统
+    enable: false         # 启用开关
+    envID:                # 腾讯云环境ID
+    # 更多配置：https://twikoo.js.org
