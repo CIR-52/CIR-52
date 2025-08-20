@@ -1,8 +1,7 @@
 个人介绍
 ================================
 
-> 生活的更多时候是寻找生活
-
+> Life is about finding itself.
 [![CIR_52's GitHub stats](https://github-readme-stats.vercel.app/api?username=cir-52&show_icons=true&count_private=true&locale=cn)](https://github.com/cir-52/github-readme-stats)
 
 我是CIR_52，一名技术爱好者
