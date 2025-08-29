@@ -1,16 +1,17 @@
-## Hi there 👋
+## 个人介绍
 
-<!--
-**CIR-52/CIR-52** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+我是CIR_52，一名技术爱好者
 
-Here are some ideas to get you started:
+很高兴与你见面，欢迎您与我交流
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+电子邮箱： CIR_52@qq.com
+
+QQ交流群：721835326
+
+个人博客：CIR-52.github.io
+
+
+
+全平台同名，都是 CIR_52 (CIR-52)
